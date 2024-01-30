@@ -1,0 +1,1 @@
+export const giphyApiKey = import.meta.env.VITE_GIPHY_API_KEY;
