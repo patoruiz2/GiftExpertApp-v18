@@ -8,7 +8,7 @@ const GifGrid = ({ category, onDeleteCategory }) => {
 
   return (
     <>
-      <h3 className="flex gap-3 text-3xl font-bold">
+      <h3 className="flex gap-3 text-xl font-bold items-center">
         {category.toUpperCase()}
         {<DeleteGifItem onDeleteCategory={() => onDeleteCategory(category)} />}
       </h3>{" "}
