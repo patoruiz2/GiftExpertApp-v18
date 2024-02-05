@@ -9,7 +9,7 @@ const GifItem = ({ title, url, id }) => {
   );
 };
 
-GifItem.propType = {
+GifItem.propTypes = {
   title: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
 };

@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Demo > should match snapshot 1`] = `
+<div>
+  <div
+    class="shadow-md bg-white border-violet-400 w-fit rounded my-auto"
+  >
+    <img
+      alt="Titulo"
+      class="object-contain"
+      src="someUrl"
+    />
+    <p
+      class="p-2"
+    >
+      Titulo
+    </p>
+  </div>
+</div>
+`;
